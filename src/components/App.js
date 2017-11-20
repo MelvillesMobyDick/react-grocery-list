@@ -12,7 +12,7 @@ const App = props => {
   return(
     <div>
       <h1>Grocery List</h1>
-      <GroceryList groceries={groceryData} handleButtonClick={ (event) => { alert('Button was clicked')} }/>
+      <GroceryList groceries={groceryData} handleButtonClick={ (event) => { alert('Item marked for deletion')} }/>
     </div>
   );
 }
